@@ -13,7 +13,7 @@ class App extends Component {
     filter: ''
   }
 
-  filterId = shortid()
+  filterId = shortid();
 
   componentDidMount() {
     const parsedContacts = JSON.parse(localStorage.getItem('contacts'))
